@@ -5,7 +5,7 @@ import {useWindowDimensions} from 'react-native';
 import {Logger} from '@babylonjs/core';
 
 const GLRenderer = ({onCreateEngine}: IProps) => {
-  Logger.LogLevels = Logger.NoneLogLevel;
+  //Logger.LogLevels = Logger.NoneLogLevel;
 
   const engine = useEngine();
   const {width, height} = useWindowDimensions();
