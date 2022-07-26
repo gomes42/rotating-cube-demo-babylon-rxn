@@ -1,33 +1,21 @@
+import React, { useCallback } from "react";
 import {
-  AbstractMesh,
   Behavior,
   Color3,
   Color4,
   Engine,
-  FadeInOutBehavior,
-  FollowBehavior,
   HemisphericLight,
-  Light,
-  Material,
   Mesh,
   MeshBuilder,
-  MirrorTexture,
   Node,
   Nullable,
-  Observable,
   Observer,
-  PBRSpecularGlossinessMaterial,
   Scene,
-  SceneLoader,
   StandardMaterial,
   UniversalCamera,
   Vector3,
 } from "@babylonjs/core";
-
-import { GLTFFileLoader } from "@babylonjs/loaders";
-
-import React, { useCallback } from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import GLRenderer from "./components/GLRenderer";
 
 export default function App() {
@@ -43,22 +31,22 @@ export default function App() {
 
     var light = new HemisphericLight("HemiLight", new Vector3(0, 9, -5), scene);
 
-    SceneLoader.RegisterPlugin(new GLTFFileLoader());
-
     const box = MeshBuilder.CreateBox("Cube", { size: 1 });
-    const boxMaterial = new StandardMaterial("CubeMaterial", scene)
-    boxMaterial.diffuseColor = Color3.FromHexString("#0081fe")
-    box.material = boxMaterial
+    const boxMaterial = new StandardMaterial("CubeMaterial", scene);
+    boxMaterial.diffuseColor = Color3.FromHexString("#0081fe");
+    box.material = boxMaterial;
 
     box.position.set(0, 0, 0);
     box.addRotation(0.1, 0.5, 0);
 
-    const RotationBehaviour: Behavior<Node> & { observer2?: Nullable<Observer<any>> } = {
-      name: "",
+    const RotationBehaviour: Behavior<Node> & {
+      observer?: Nullable<Observer<any>>;
+    } = {
+      name: "RotationBehaviour",
       init: function (): void {},
       attach: function (target: Node): void {
-        RotationBehaviour.observer2 = scene.onBeforeRenderObservable.add(() => {
-          (target as Mesh).addRotation( 0, engine.getDeltaTime() * 0.001, 0);
+        RotationBehaviour.observer = scene.onBeforeRenderObservable.add(() => {
+          (target as Mesh).addRotation(0, engine.getDeltaTime() * 0.001, 0);
         });
       },
       detach: function (): void {},
