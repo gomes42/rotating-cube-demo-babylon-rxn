@@ -5,7 +5,7 @@
 
 import React, {useCallback} from 'react';
 import {Behavior, Color3, Color4, Engine, HemisphericLight, Mesh, MeshBuilder, Node, Nullable, Observer, Scene, StandardMaterial, UniversalCamera, Vector3} from '@babylonjs/core';
-import {View} from 'react-native';
+import {StatusBar, View} from 'react-native';
 import GLRenderer from './components/GLRenderer';
 
 export default function App() {
@@ -65,6 +65,7 @@ export default function App() {
         height: '100%'
       }}
     >
+      <StatusBar backgroundColor={'#0DDDF2'} />
       <GLRenderer onCreateEngine={onCreateEngine} />
     </View>
   );
