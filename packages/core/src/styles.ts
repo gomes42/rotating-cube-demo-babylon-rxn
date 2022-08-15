@@ -19,7 +19,7 @@ const useStyles = () => {
       color: 'white',
       fontSize: vmin(1.75),
       fontWeight: '600',
-      textShadowColor: 'black',
+      textShadowColor: 'rgba(0, 0, 0, 0.45)',
       textShadowOffset: {width: vmin(0.25), height: vmin(0.2)},
       textShadowRadius: vmin(0.01)
     }
