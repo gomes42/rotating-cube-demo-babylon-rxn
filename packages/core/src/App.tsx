@@ -5,8 +5,9 @@
 
 import React, {useCallback} from 'react';
 import {Behavior, Color3, Color4, Engine, HemisphericLight, Mesh, MeshBuilder, Node, Nullable, Observer, Scene, StandardMaterial, UniversalCamera, Vector3} from '@babylonjs/core';
-import {StatusBar, View} from 'react-native';
+import {StatusBar, View, Text} from 'react-native';
 import GLRenderer from './components/GLRenderer';
+import useStyles from './styles';
 
 export default function App() {
   const onCreateEngine = useCallback((engine: Engine | undefined) => {
@@ -14,7 +15,7 @@ export default function App() {
 
     const scene = new Scene(engine);
 
-    scene.clearColor = Color4.FromHexString(`#00CBF1`);
+    scene.clearColor = Color4.FromHexString(`#1acaeb`);
 
     const camera = new UniversalCamera('camera', new Vector3(0, 3, -5), scene);
     camera.setTarget(Vector3.Zero());
@@ -55,6 +56,8 @@ export default function App() {
     };
   }, []);
 
+  const styles = useStyles();
+
   return (
     <View
       style={{
@@ -67,6 +70,9 @@ export default function App() {
     >
       <StatusBar backgroundColor={'#0DDDF2'} />
       <GLRenderer onCreateEngine={onCreateEngine} />
+      <View style={styles.Overlay_Root}>
+        <Text numberOfLines={0} allowFontScaling={false} style={styles.Overlay_Text}>ROTATING-CUBE-DEMO-BABYLON-RXN</Text>
+      </View>
     </View>
   );
 }

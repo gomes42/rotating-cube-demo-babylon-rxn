@@ -10,7 +10,8 @@
   "dependencies": {
     "@babylonjs/core": "^5.6.1",
     "@babylonjs/loaders": "^5.16.0",
-    "@babylonjs/react-native": "*"
+    "@babylonjs/react-native": "*",
+    "rxn-units": "^0.1.4"
   },
   "devDependencies": {
     "@types/react": "^17.0.19",
@@ -19,13 +20,13 @@
     "typescript": "^4.6.4"
   },
   "peerDependencies": {
+    "@babylonjs/core": "*",
+    "@babylonjs/loaders": "*",
+    "@babylonjs/react-native": "*",
     "react": "*",
     "react-native": "*",
     "react-native-permissions": "*",
-    "react-native-web": "*",
-    "@babylonjs/core": "*",
-    "@babylonjs/loaders": "*",
-    "@babylonjs/react-native": "*"
+    "react-native-web": "*"
   },
   "peerDependenciesMeta": {
     "react-native-web": {

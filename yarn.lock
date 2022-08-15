@@ -10783,6 +10783,11 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+rxn-units@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/rxn-units/-/rxn-units-0.1.4.tgz#cc2ecc8b33a73377896a0a392006b03c8a7953ad"
+  integrity sha512-ty/wSmaF1Jc7joYYf/OvyQYnlSMiY/M6STtiBE4aMzVdJgdo8g86jH5FQdzFiOLP3Goq580Y9Jwou+yKBv4d5g==
+
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
