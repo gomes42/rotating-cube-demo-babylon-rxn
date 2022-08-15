@@ -2,7 +2,8 @@ import React, {memo, useCallback, useEffect, useRef, useState} from 'react';
 import {IProps} from '.';
 import {useWindowDimensions} from 'react-native';
 
-import {Engine, Logger} from '@babylonjs/core';
+import {Engine} from '@babylonjs/core';
+//import {Logger} from '@babylonjs/core';
 
 const GLRenderer = ({onCreateEngine}: IProps) => {
   //Logger.LogLevels = Logger.NoneLogLevel;
@@ -33,11 +34,10 @@ const GLRenderer = ({onCreateEngine}: IProps) => {
 
   useEffect(() => {
     if (canvasRef.current) {
-
       engineRef.current = new Engine(canvasRef.current, true, {
         antialias: true,
         adaptToDeviceRatio: true,
-        powerPreference: 'high-performance',
+        powerPreference: 'high-performance'
       });
 
       handleResize();

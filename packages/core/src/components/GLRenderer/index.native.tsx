@@ -1,8 +1,8 @@
-import React, {memo, useCallback, useEffect, useRef, useState} from 'react';
+import React, {memo, useCallback, useEffect} from 'react';
 import {EngineView, useEngine} from '@babylonjs/react-native';
 import {IProps} from '.';
 import {useWindowDimensions} from 'react-native';
-import {Logger} from '@babylonjs/core';
+//import {Logger} from '@babylonjs/core';
 
 const GLRenderer = ({onCreateEngine}: IProps) => {
   //Logger.LogLevels = Logger.NoneLogLevel;
