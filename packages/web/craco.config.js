@@ -57,7 +57,7 @@ module.exports = function({
             __DEV__: process.env.NODE_ENV !== "production",
           }),
         ],
-        remove: ["ManifestPlugin", "WebpackManifestPlugin"]
+        remove: []
       }
     },
   }
