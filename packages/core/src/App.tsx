@@ -3,13 +3,19 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import React, {useCallback} from 'react';
+import React, {useCallback, useEffect} from 'react';
 import {Behavior, Color3, Color4, Engine, HemisphericLight, Mesh, MeshBuilder, Node, Nullable, Observer, Scene, StandardMaterial, UniversalCamera, Vector3} from '@babylonjs/core';
-import {StatusBar, View, Text} from 'react-native';
+import {StatusBar, View, Text, Platform} from 'react-native';
 import GLRenderer from './components/GLRenderer';
 import useStyles from './styles';
 
 export default function App() {
+  useEffect(() => {
+    if (Platform.OS == 'web') {
+      window.document.body.style.backgroundColor = '#1acaeb';
+    }
+  }, []);
+
   const onCreateEngine = useCallback((engine: Engine | undefined) => {
     if (!engine) return;
 
@@ -71,7 +77,9 @@ export default function App() {
       <StatusBar backgroundColor={'#0DDDF2'} />
       <GLRenderer onCreateEngine={onCreateEngine} />
       <View style={styles.Overlay_Root}>
-        <Text numberOfLines={0} allowFontScaling={false} style={styles.Overlay_Text}>ROTATING-CUBE-DEMO-BABYLON-RXN</Text>
+        <Text numberOfLines={0} allowFontScaling={false} style={styles.Overlay_Text}>
+          ROTATING-CUBE-DEMO-BABYLON-RXN
+        </Text>
       </View>
     </View>
   );
