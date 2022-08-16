@@ -18,8 +18,9 @@ const GLRenderer = ({onCreateEngine}: IProps) => {
     if (engineRef.current) {
       (canvasRef.current as HTMLCanvasElement).width = width;
       (canvasRef.current as HTMLCanvasElement).height = height;
-      (canvasRef.current as HTMLCanvasElement).style.width = `100%`;
-      (canvasRef.current as HTMLCanvasElement).style.height = `100%`;
+      (canvasRef.current as HTMLCanvasElement).style.width = '100%';
+      (canvasRef.current as HTMLCanvasElement).style.height = '100%';
+      (canvasRef.current as HTMLCanvasElement).style.outline = 'none';
 
       engineRef.current.setSize(width, height);
       engineRef.current.resize();
