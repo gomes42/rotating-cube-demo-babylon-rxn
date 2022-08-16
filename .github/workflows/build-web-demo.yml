@@ -14,14 +14,9 @@ jobs:
         with:
           node-version: '14.x'
       - name: Install dependencies
+        working-directory: ./packages/web
         run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
+          yarn
       - name: Build webapp
         working-directory: ./packages/web
         run: |
