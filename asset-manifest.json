@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/rotating-cube-demo-babylon-rxn/static/js/main.3122f6d7.js",
+    "main.js": "/rotating-cube-demo-babylon-rxn/static/js/main.95d4fbfa.js",
     "static/js/415.f963970b.chunk.js": "/rotating-cube-demo-babylon-rxn/static/js/415.f963970b.chunk.js",
     "index.html": "/rotating-cube-demo-babylon-rxn/index.html",
-    "main.3122f6d7.js.map": "/rotating-cube-demo-babylon-rxn/static/js/main.3122f6d7.js.map",
+    "main.95d4fbfa.js.map": "/rotating-cube-demo-babylon-rxn/static/js/main.95d4fbfa.js.map",
     "415.f963970b.chunk.js.map": "/rotating-cube-demo-babylon-rxn/static/js/415.f963970b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3122f6d7.js"
+    "static/js/main.95d4fbfa.js"
   ]
 }
