@@ -1,5 +1,6 @@
 {
   "name": "@cube-demo-babylon-rxn/web",
+  "homepage": "https://runtothedoor.github.io/rotating-cube-demo-babylon-rxn",
   "version": "0.1.0",
   "private": true,
   "scripts": {
