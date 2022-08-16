@@ -13,3 +13,13 @@ Technologies:
 - React Native Web
 - BabylonJS / BabylonReactNative
 - CRACO
+
+
+## 📙 Support:
+
+|Android | IOS | Web <br/><br/>(react-native-web) | Windows <br/><br/>(react-native-windows) |  Windows<br/>Mac<br/>Linux<br/><br/>(electron)  |     Windows<br/>Mac<br/>Linux<br/><br/>(tauri)|
+|:-------:|:---:|:-------------------------------:|:--------------------------------------------:|:-----------------------------------------------:|:---------------------------------------------:|
+|   ✅  |  ✅  |                 ✅              |                       🚧                    |                        🚧                       |                      🚧                      |
+
+##  📄 License
+MIT - This demo was built with ❤️ by [runtothedoor](https://github.com/runtothedoor)<br/>Feel free for modify, edit, copy, fork and share
