@@ -15,7 +15,7 @@ Technologies:
 - CRACO
 
 
-## 📙 Support:
+## 📙 Support
 
 |Android | IOS | Web <br/><br/>(react-native-web) | Windows <br/><br/>(react-native-windows) |  Windows<br/>Mac<br/>Linux<br/><br/>(electron)  |     Windows<br/>Mac<br/>Linux<br/><br/>(tauri)|
 |:-------:|:---:|:-------------------------------:|:--------------------------------------------:|:-----------------------------------------------:|:---------------------------------------------:|
