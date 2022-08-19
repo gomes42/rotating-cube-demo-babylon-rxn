@@ -74,7 +74,7 @@ export default function App() {
         height: '100%'
       }}
     >
-      <StatusBar backgroundColor={'#0DDDF2'} />
+      <StatusBar backgroundColor={'black'} />
       <GLRenderer onCreateEngine={onCreateEngine} />
       <View style={styles.Overlay_Root}>
         <Text numberOfLines={0} allowFontScaling={false} style={styles.Overlay_Text}>
