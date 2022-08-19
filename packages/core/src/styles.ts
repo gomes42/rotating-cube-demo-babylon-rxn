@@ -11,9 +11,8 @@ const useStyles = () => {
       }),
       position: 'absolute',
       bottom: 0,
-      right: 0,
-      margin: vmin(1),
-      padding: 0
+      right: vmin(1.5),
+      margin: vmin(1.5)
     },
     Overlay_Text: {
       color: 'white',
