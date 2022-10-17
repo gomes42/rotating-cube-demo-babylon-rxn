@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@babylonjs/core": "^5.6.1",
+    "@babylonjs/core": "^5.28.0",
     "@babylonjs/loaders": "^5.16.0",
     "@babylonjs/react-native": "*",
     "rxn-units": "^0.1.4"

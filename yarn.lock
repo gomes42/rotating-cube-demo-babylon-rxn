@@ -1243,12 +1243,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@babylonjs/core@^5.19.0", "@babylonjs/core@^5.6.1":
-  version "5.19.0"
-  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-5.19.0.tgz#440d4da885dec4db08fa0e43391a287d625236a2"
-  integrity sha512-ZnIxZsyiF4qsmbJiwnAT3E/sqSHmth4TWqqZ8pRPMk1a9K/I6kh2JCn1QY4ant0dnH4zTAJL+4iaYhFzFPiQlg==
-  dependencies:
-    tslib "^2.4.0"
+"@babylonjs/core@^5.28.0":
+  version "5.28.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-5.28.0.tgz#01e45398985c30929a07b8f01f53f3c9faf12dda"
+  integrity sha512-muHxtHlQmkd8bH5VrF7iDDF4R1qxtzf3jsHLd+IdIJbKjbB1HDCJwekPROLHUA/GbPpb0F3Q4QGk2oixm1R9uQ==
 
 "@babylonjs/loaders@^5.16.0", "@babylonjs/loaders@^5.19.0":
   version "5.19.0"
