@@ -1263,10 +1263,10 @@
     base-64 "^0.1.0"
     semver "^7.3.2"
 
-"@babylonjs/react-native@*", "@babylonjs/react-native@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@babylonjs/react-native/-/react-native-1.3.2.tgz#fcc99a427b72cb3263cc3e5d6c0a96c073993cb0"
-  integrity sha512-VblCmngy7ncN/BdFzQZV+R+umL6f7owScVbGk3Ab1zbWA+A78v8E5x7DcnGEMAld69js/8pt4c28VmPGQg46+w==
+"@babylonjs/react-native@*", "@babylonjs/react-native@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/react-native/-/react-native-1.4.0.tgz#c5eeac0834c15f727409a39b898915aa38603222"
+  integrity sha512-OFcPUQSmAVYXc0TYCJkUn0M/GoCtC3J6suF2o7+Y6GMBUrCuQ8BUkk5byCftM3PDmOQz5lZqsHtDKtkS5D2O+A==
   dependencies:
     base-64 "^0.1.0"
     semver "^7.3.2"
