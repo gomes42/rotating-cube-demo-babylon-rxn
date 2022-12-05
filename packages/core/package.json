@@ -14,7 +14,7 @@
     "rxn-units": "^0.1.4"
   },
   "devDependencies": {
-    "@types/react": "^17.0.19",
+    "@types/react": "^18.0.26",
     "@types/react-native": "^0.69.5",
     "react-native-permissions": "*",
     "typescript": "^4.6.4"
