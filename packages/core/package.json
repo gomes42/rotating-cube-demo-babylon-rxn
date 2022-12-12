@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.19",
-    "@types/react-native": "^0.69.5",
+    "@types/react-native": "^0.70.8",
     "react-native-permissions": "*",
     "typescript": "^4.6.4"
   },
