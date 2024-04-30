@@ -22,4 +22,4 @@ Technologies:
 |   ✅  |  ✅  |                 ✅              |                       🚧                    |                        🚧                       |                      🚧                      |
 
 ##  📄 License
-MIT - This demo was built with ❤️ by [runtothedoor](https://github.com/runtothedoor)<br/>Feel free for modify, edit, copy, fork and share
+MIT - This demo was built with ❤️ by [lgxm3z](https://github.com/lgxm3z)<br/>Feel free for modify, edit, copy, fork and share
