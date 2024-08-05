@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babylonjs/core": "^5.29.0",
-    "@babylonjs/loaders": "^5.16.0",
+    "@babylonjs/loaders": "^7.19.1",
     "@babylonjs/react-native": "*",
     "rxn-units": "^0.1.4"
   },
