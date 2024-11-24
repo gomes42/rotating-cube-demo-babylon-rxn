@@ -3,7 +3,7 @@
 
 <br/><a href="#"><img width='260px' src='./cube.gif'/></a>
 
-[Live Demo (Web)](https://gomes42.github.io/rotating-cube-demo-babylon-rxn)
+[Live Demo (Web)](https://gomes042.github.io/rotating-cube-demo-babylon-rxn)
 
 Technologies:
 
